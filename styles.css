@@ -1,0 +1,104 @@
+/* styling for lessons.html */
+.m1{
+    background-image: url("Photos/cybersec.jpg");
+    min-height: 500px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.m2{
+    background-image: url("Photos/Biz-analyst.jpeg");
+    min-height: 500px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.m3{
+    background-image: url("Photos/code-the-future.webp");
+    min-height: 500px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+/* styling for days.html */
+
+.day-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.day-card {
+    flex: 1;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10%;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: dimgrey 5px 5px ;
+    background-color: azure;
+}
+
+.img-card {
+    text-align: center;
+}
+
+.card-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.day-tag1, .day-tag2, .day-tag3, .day-tag4, .day-tag5 {
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 18px;
+    margin-top: 17px;
+}
+
+/* styling for index.html */
+
+form {
+    max-width: 1000px;
+    padding: 50px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: slategrey 2px 2px 2px 2px;
+}
+
+label, legend {
+    display: block;
+    margin-top: 25px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
